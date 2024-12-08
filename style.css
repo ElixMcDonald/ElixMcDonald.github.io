@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Host Grotesk', sans-serif;
+    src: url(fnt/HostGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Host Grotesk Italic', sans-serif;
+    src: url(fnt/HostGrotesk-Italic-VariableFont_wght.ttf);
+}
+
+body, head {padding-left: 20px; font-family: 'Host Grotesk', sans-serif;}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+}
+
+li a {font-size: normal; color: black; text-decoration: dotted;}
